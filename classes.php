@@ -1,7 +1,8 @@
 <?php
 define('DEV',1);
-require_once("/home/hosterslice/html/Classes/Defines.php");
-foreach(glob("/home/hosterslice/html/Classes/*.php") as $file) {
+define('PATH',"/home/hosterslice/html/");
+require_once(PATH.Classes/Defines.php");
+foreach(glob(PATH."Classes/*.php") as $file) {
   require_once($file);
 }
 if (isset($_GET['fix'])) { new AutoFixer();die();}
