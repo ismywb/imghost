@@ -1,0 +1,4 @@
+[25-May-2014 19:59:06 UTC] PHP Warning:  require_once(/home/hosterslice/html/Classes/Defines.php): failed to open stream: No such file or directory in /home/jerry/ismywb.co/classes.php on line 4
+[25-May-2014 19:59:06 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/hosterslice/html/Classes/Defines.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jerry/ismywb.co/classes.php on line 4
+[25-May-2014 19:59:07 UTC] PHP Warning:  require_once(/home/hosterslice/html/Classes/Defines.php): failed to open stream: No such file or directory in /home/jerry/ismywb.co/classes.php on line 4
+[25-May-2014 19:59:07 UTC] PHP Fatal error:  require_once(): Failed opening required '/home/hosterslice/html/Classes/Defines.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/jerry/ismywb.co/classes.php on line 4
