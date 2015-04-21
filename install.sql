@@ -1,6 +1,4 @@
 DROP TABLE IF EXISTS `imgs`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!40101 SET character_set_client = utf8 */;
 CREATE TABLE `imgs` (
   `id` int(5) NOT NULL AUTO_INCREMENT,
   `img` text NOT NULL,
@@ -12,5 +10,4 @@ CREATE TABLE `imgs` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=321 DEFAULT CHARSET=latin1;
-/*!40101 SET character_set_client = @saved_cs_client */;
-/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
